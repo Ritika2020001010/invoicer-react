@@ -1,8 +1,34 @@
-# React + Vite
+# Invoicer React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple invoicing application built with React and Vite. This app is deployed using GitHub Pages.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 **Features**
+- Generate and manage invoices easily.
+- Built with React and optimized using Vite.
+- Deployed to GitHub Pages for easy access.
+
+---
+
+## 🌐 **Live Demo**
+[Invoicer React App](https://ritika2020001010.github.io/invoicer-react)
+
+---
+
+## 🛠️ **Getting Started**
+
+Follow these steps to run and deploy the project on your local machine.
+
+### **Prerequisites**
+1. Node.js installed ([Download Node.js](https://nodejs.org/)).
+2. Git installed ([Download Git](https://git-scm.com/)).
+
+---
+
+### **Installation**
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ritika2020001010/invoicer-react.git
+   cd invoicer-react
