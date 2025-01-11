@@ -124,7 +124,7 @@ function App() {
           </>
         ) : (
           <div className="flex flex-col justify-center gap-4">
-            {/* Personal Information */}
+            {/*  Information */}
             <article className="md:grid grid-cols-2 gap-10">
               <div className="flex flex-col">
                 <label htmlFor="name" className="mb-2 font-medium">
@@ -159,7 +159,6 @@ function App() {
               </div>
             </article>
 
-            {/* Contact Details */}
             <article className="md:grid grid-cols-3 gap-10">
               <div className="flex flex-col">
                 <label htmlFor="email" className="mb-2 font-medium">
@@ -210,7 +209,6 @@ function App() {
               </div>
             </article>
 
-            {/* Client Details */}
             <article className="md:grid grid-cols-2 gap-10">
               <div className="flex flex-col">
                 <label htmlFor="clientName" className="mb-2 font-medium">
@@ -245,7 +243,6 @@ function App() {
               </div>
             </article>
 
-            {/* Invoice Details */}
             <article className="md:grid grid-cols-3 gap-10">
               <div className="flex flex-col">
                 <label htmlFor="invoiceNumber" className="mb-2 font-medium">
@@ -292,7 +289,6 @@ function App() {
               </div>
             </article>
 
-            {/* Table Form */}
             <article>
               <TableForm
                 description={description}
@@ -310,7 +306,6 @@ function App() {
               />
             </article>
 
-            {/* Additional Notes */}
             <div className="flex flex-col">
               <label htmlFor="notes" className="mb-2 font-medium">
                 Enter additional notes
@@ -327,7 +322,6 @@ function App() {
               ></textarea>
             </div>
 
-            {/* Generate Invoice Button */}
             <button
               onClick={() => setShowInvoice(true)}
               className="bg-blue-500 py-2 px-8 text-white font-bold rounded shadow border-2 border-blue-500 hover:bg-transparent hover:text-blue-500 transition-all duration-300"
